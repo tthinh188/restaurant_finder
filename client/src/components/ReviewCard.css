@@ -1,0 +1,17 @@
+.reviewCard {
+    border: 1px solid lightgray;
+    width: 60%;
+    margin: auto;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: rgb(39, 19, 226);
+    border-radius: 20px;
+    color: whitesmoke;
+}
+
+.reviewCard_name {
+    margin-bottom: 10px;
+}
+.reviewCard_review {
+    margin-top: 20px;
+}

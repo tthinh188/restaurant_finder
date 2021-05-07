@@ -1,0 +1,8 @@
+.header {
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+    background-color: aquamarine;
+    color: brown;
+    cursor: pointer;
+}

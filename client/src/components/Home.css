@@ -1,0 +1,9 @@
+.home {
+    display: flex;
+    flex-direction: column;
+}
+
+.home_addRestaurant {
+    margin-top: 20px;
+    width: 100%;
+}

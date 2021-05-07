@@ -1,0 +1,33 @@
+.restaurantDetail_title {
+    text-align: center;
+    color: rgb(201, 127, 77);
+    margin: 20px 0;
+}
+
+.restaurantReview {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: auto;
+}
+
+.restaurantReview_row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.restaurantReview_row p {
+    flex: 0.3;
+}
+
+.restaurantReview_row input {
+    flex: 0.7;
+    padding: 10px;
+}
+
+#review {
+    height: 60px;
+    flex: 0.7;
+}

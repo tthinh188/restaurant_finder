@@ -1,0 +1,71 @@
+.restaurantList {
+    width: 95%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.restaurantList_table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.restaurantList_row {
+    display: flex;
+    justify-content: space-between;
+    animation: add 1s linear;
+    transition: 0.5s;
+}
+
+.restaurantList_rowRating {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    transition: 0.5s;
+    font-weight: 600;
+}
+
+.restaurantList_rowRating:hover .restaurant_rating {
+    transform: scale(1.08) !important;
+}
+
+.restaurantList_rowRating:hover {
+    color: yellow;
+    text-decoration: underline;
+}
+
+.restaurantList_rowRating p {
+    margin-left: 10px;
+}
+
+.restaurant_rating {
+    transition: 0.5s;
+    color: yellow !important;
+    opacity: 1 !important;
+    transition: 0.5s !important;
+}
+
+tbody .restaurantList_row:hover {
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+@keyframes add {
+    from { opacity: 0; } to { opacity: 1; } 
+}
+
+.restaurantList_row th,td {
+    width: 100%;
+    border: 1px solid gray;
+    text-align: left;
+    padding: 10px;
+}
+
+.restaurantList_table thead {
+    background-color: rgb(23, 128, 247);
+    color: white;
+}
+
+.restaurantList_table tbody {
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+}
+

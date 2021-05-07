@@ -1,0 +1,48 @@
+.addRestaurant form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.addRestaurant_input {
+    padding: 10px;
+    margin: 5px;
+    border-radius: 6px;
+    outline: none;
+    width: 30%;
+    border: 1px solid gray;
+    box-sizing: border-box;
+}
+
+.addRestaurant_select {
+    padding: 9.5px;
+    border-radius: 6px;
+    outline: none;
+    box-sizing: border-box;
+    width: 10%;
+}
+
+.addRestaurant form button {
+    margin-left: 10px;
+}
+
+@media (max-width: 768px) {
+
+    .addRestaurant form {
+        flex-direction: column;
+        width: 80%;
+        margin-left: 20px;
+    }
+
+    .addRestaurant_input, .addRestaurant_select {
+        margin-bottom: 20px;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .addRestaurant form button {
+        margin-left: 0;
+        width: 30%;
+        align-self: start;
+    }
+}

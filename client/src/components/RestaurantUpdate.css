@@ -1,0 +1,29 @@
+.restaurantUpdate {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.restaurantUpdate input {
+    padding: 10px;
+    margin-bottom: 30px;
+    width: 50%;
+    outline: 0;
+    border: 1px solid gray;
+    transition: 0.5s;
+}
+
+.restaurantUpdate input:focus {
+    border: 1px solid cadetblue;
+}
+
+.restaurantUpdate select {
+    width: 50%;
+    margin-bottom: 30px;
+}
+
+.restaurantUpdate button {
+    width: 50%;
+}
